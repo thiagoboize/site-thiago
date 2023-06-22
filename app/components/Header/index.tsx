@@ -7,7 +7,7 @@ import CodeAnimation from "../../../public/code.json";
 
 const Header = () => {
     return (
-        <div className='w-full flex flex-col justify-center items-center gap-y-4 min-h-[80vh] p-6'>
+        <div className='w-full max-w-5xl flex flex-col justify-center items-center gap-y-4 min-h-[80vh] p-6'>
             <div className='w-full flex flex-col justify-center items-center gap-y-2'>
                 <span className='text-2xl'>Olá, meu nome é Thiago sou um</span>
                 <h1 className='text-5xl font-semibold text-transparent  bg-clip-text bg-gradient-to-br from-[#00FEFC] to-[#13BB15] p-1'>Desenvolvedor FullStack</h1>

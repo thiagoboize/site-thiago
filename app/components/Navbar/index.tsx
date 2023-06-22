@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div className='w-full flex justify-between items-center'>
-            <div className='flex justify-center items-center gap-2 py-4'>
+        <div className='w-full max-w-5xl py-4 flex justify-between items-center'>
+            <div className='flex justify-center items-center gap-2 '>
                 <div className='bg-white rounded-md p-2'>
                     <Code className=' text-[#383838]' weight='bold' size={18} />
                 </div>
