@@ -44,7 +44,7 @@ const backendTechnologies = [
 
 const Tecnologies = () => {
     return (
-        <div className="w-full max-w-5xl flex flex-col py-4 gap-y-4 justify-center items-center">
+        <div className="w-full max-w-5xl flex flex-col py-4 my-6 gap-y-4 justify-center items-center">
             <div className="w-full flex flex-col justify-center items-center">
                 <Title configs={{ width: "w-fit" }} >Habilidades e Tecnologias</Title>
                 <Label>Abaixo algumas das tecnologias que uso no dia a dia</Label>

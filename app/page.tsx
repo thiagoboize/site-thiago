@@ -5,6 +5,7 @@ import About from './components/About'
 import Experiences from './components/Experiences'
 import Tecnologies from './components/Tecnologies'
 import Projects from './components/Projects'
+import Jobs from './components/Jobs'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Experiences />
       <Tecnologies />
       <Projects />
+      <Jobs />
     </main>
   )
 }
