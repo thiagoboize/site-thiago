@@ -7,11 +7,13 @@ import Tecnologies from './components/Tecnologies'
 import Projects from './components/Projects'
 import Jobs from './components/Jobs'
 import Footer from './components/Footer'
+import NavbarMobile from './components/NavbarMobile'
 
 export default function Home() {
   return (
-    <main className="w-full h-full m flex flex-col gap-y-4 justify-center items-center ">
+    <main className="w-full h-full flex flex-col gap-y-4 justify-center items-center ">
       <Navbar />
+      <NavbarMobile/>
       <Header />
       <About />
       <Experiences />

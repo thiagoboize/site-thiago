@@ -9,3 +9,9 @@ body {
   background-color: #383838;
   color: #ffffff;
 }
+
+
+html {
+--scroll-behavior: smooth!important;
+scroll-behavior: smooth!important;
+}

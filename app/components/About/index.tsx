@@ -5,7 +5,7 @@ import Title from "../Title";
 
 const About = () => {
     return (
-        <div className="w-full  bg-darken  flex flex-col justify-center items-center h-[30rem]">
+        <div id="about" className="w-full  bg-darken  flex flex-col justify-center items-center h-[30rem]">
             <div className="max-w-5xl w-full h-full flex flex-col justify-center items-center gap-y-4 relative ">
                 <div className="w-full  flex flex-col gap-y-2  justify-center items-center p-4  ">
                     <Title>Sobre mim</Title>

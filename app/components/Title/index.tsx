@@ -13,7 +13,7 @@ interface IProps extends HtmlHTMLAttributes<HTMLHeadElement> {
 const Title = (props: IProps) => {
     return (
         <h1 {...props}
-            className={` ${props.configs || "w-full"}  text-2xl font-semibold `}
+            className={` ${props.configs || "w-full"}  text-2xl max-sm:text-lg font-semibold `}
         >
             {props.children}
         </h1>

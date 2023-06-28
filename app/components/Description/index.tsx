@@ -7,7 +7,7 @@ const Description = (props: IProps) => {
     return (
         <p
             {...props}
-            className="text-base"
+            className="text-base max-sm:text-sm"
         >
             {props.children}
         </p>

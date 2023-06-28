@@ -44,14 +44,14 @@ const backendTechnologies = [
 
 const Tecnologies = () => {
     return (
-        <div className="w-full max-w-5xl flex flex-col py-4 my-6 gap-y-4 justify-center items-center">
+        <div id="habilidades" className="w-full max-w-5xl flex flex-col p-4 my-6 gap-y-4 justify-center items-center">
             <div className="w-full flex flex-col justify-center items-center">
                 <Title configs={{ width: "w-fit" }} >Habilidades e Tecnologias</Title>
                 <Label>Abaixo algumas das tecnologias que uso no dia a dia</Label>
             </div>
             <div className="w-full flex flex-col gap-y-4 ">
-                <h2 className="text-transparent text-2xl font-semibold  bg-clip-text bg-gradient-to-br from-[#00FEFC] to-[#13BB15]">Frontend</h2>
-                <div className="w-full grid grid-cols-4 gap-4">
+                <h2 className="text-transparent text-2xl max-md:text-lg font-semibold  bg-clip-text bg-gradient-to-br from-[#00FEFC] to-[#13BB15]">Frontend</h2>
+                <div className="w-full grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-[480px]:grid-cols-1 gap-4">
                     {frontTechnologies.map((item) => {
                         return (
                             <div key={item.title} className=" transition-all w-full flex justify-center items-center rounded-lg p-4 gap-x-2 bg-gray-first hover:scale-95">
@@ -68,8 +68,8 @@ const Tecnologies = () => {
                 </div>
             </div>
             <div className="w-full flex flex-col gap-y-4 ">
-                <h2 className="text-transparent text-2xl font-semibold  bg-clip-text bg-gradient-to-br from-[#00FEFC] to-[#13BB15]">Backend</h2>
-                <div className="w-full grid grid-cols-4 gap-4">
+                <h2 className="text-transparent text-2xl max-md:text-lg font-semibold  bg-clip-text bg-gradient-to-br from-[#00FEFC] to-[#13BB15]">Backend</h2>
+                <div className="w-full grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-[480px]:grid-cols-1 gap-4">
                     {backendTechnologies.map((item) => {
                         return (
                             <div key={item.title} className=" transition-all w-full flex justify-center items-center rounded-lg p-4 gap-x-2 bg-gray-first hover:scale-95">

@@ -3,7 +3,7 @@ function Computer() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="w-64"
+      className="w-64 max-md:w-44"
       fill="none"
       viewBox="0 0 264 274"
     >

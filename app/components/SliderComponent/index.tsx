@@ -65,13 +65,13 @@ export default function SliderComponent() {
         <>
             <div className="navigation-wrapper w-full">
                 <div ref={sliderRef} className="keen-slider">
-                    <div className="keen-slider__slide w-full h-full flex gap-4 justify-center items-center ">
+                    <div className="keen-slider__slide w-full h-full flex max-md:flex-col-reverse gap-4 justify-center items-center ">
                         <div className="w-full h-full flex flex-col gap-y-4 justify-center items-center">
                             <Title>Plataforma Rifeja</Title>
                             <Description>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum expedita vitae asperiores obcaecati enim maiores laborum dolores dicta? Consectetur, accusamus nostrum cumque consequuntur iusto quis ipsum nihil iure repellat sed.</Description>
                             <div className="w-full flex gap-x-2">
                                 <div className="px-4 py-2 bg-gradient-to-br  from-[#00FEFC] to-[#13BB15] rounded-md">
-                                    <span className="text-black flex items-center gap-x-1">Concluído <CheckCircle size={18} /> </span>
+                                    <span className="text-black text-sm flex items-center gap-x-1">Concluído <CheckCircle size={18} /> </span>
                                 </div>
                                 <Button>Conheça <ArrowRight size={18} /></Button>
                             </div>
