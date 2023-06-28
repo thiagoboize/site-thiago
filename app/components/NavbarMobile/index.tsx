@@ -29,22 +29,22 @@ const NavbarMobile = () => {
                     </div>
                     <div className=' w-full flex flex-col justify-center items-center gap-x-4'>
                         <div className="w-full flex justify-start items-center border-b border-b-gray-first p-2">
-                            <Link onClick={() => { setOpen(!open) }} className="px-4 py-2 hover:bg-gray-first rounded-md" href={'#home'}>Home</Link>
+                            <Link onClick={() => { setOpen(!open) }} className="px-4 py-2 hover:bg-gray-first rounded-md" href={'#home'} scroll={false}>Início</Link>
                         </div>
                         <div className="w-full flex justify-start items-center border-b border-b-gray-first p-2">
-                            <Link onClick={() => { setOpen(!open) }} className="px-4 py-2 hover:bg-gray-first rounded-md" href={'#about'}>Sobre</Link>
+                            <Link onClick={() => { setOpen(!open) }} className="px-4 py-2 hover:bg-gray-first rounded-md" href={'#about'} scroll={false}>Sobre</Link>
                         </div>
                         <div className="w-full flex justify-start items-center border-b border-b-gray-first p-2">
-                            <Link onClick={() => { setOpen(!open) }} className="px-4 py-2 hover:bg-gray-first rounded-md" href={'#projetos'}>Projetos</Link>
+                            <Link onClick={() => { setOpen(!open) }} className="px-4 py-2 hover:bg-gray-first rounded-md" href={'#habilidades'} scroll={false}>habilidades</Link>
                         </div>
                         <div className="w-full flex justify-start items-center border-b border-b-gray-first p-2">
-                            <Link onClick={() => { setOpen(!open) }} className="px-4 py-2 hover:bg-gray-first rounded-md" href={'#contato'}>Contato</Link>
+                            <Link onClick={() => { setOpen(!open) }} className="px-4 py-2 hover:bg-gray-first rounded-md" href={'#projetos'} scroll={false}>Projetos</Link>
                         </div>
                     </div>
                     <div className="w-full  flex justify-start items-center p-4">
-                        <button className=' transition-all font-semibold text-transparent  bg-clip-text bg-gradient-to-br from-[#00FEFC] to-[#13BB15] p-1 hover:scale-105' >
+                        <Link onClick={() => { setOpen(!open) }} href={"#contato"} scroll={false} className=' transition-all font-semibold text-transparent  bg-clip-text bg-gradient-to-br from-[#00FEFC] to-[#13BB15] p-1 hover:scale-105' >
                             Contate-me
-                        </button>
+                        </Link>
                     </div>
                 </div>
             ) : null}

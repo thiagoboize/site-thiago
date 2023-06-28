@@ -15,7 +15,7 @@ const Navbar = () => {
                     <span className='font-semibold text-lg'>Thiago Boize</span>
                 </div>
                 <div className='flex justify-center items-center gap-x-4'>
-                    <Link href={'#home'}>Home</Link>
+                    <Link href={'#home'}>Início</Link>
                     <Link href={'#about'} scroll={false} >Sobre</Link>
                     <Link href={'#habilidades'} scroll={false} >Habilidades</Link>
                     <Link href={'#projetos'} scroll={false}>Projetos</Link>
