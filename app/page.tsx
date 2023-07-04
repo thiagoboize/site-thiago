@@ -12,6 +12,7 @@ import NavbarMobile from './components/NavbarMobile'
 export default function Home() {
   return (
     <main className="w-full h-full flex flex-col gap-y-4 justify-center items-center ">
+      
       <Navbar />
       <NavbarMobile/>
       <Header />
